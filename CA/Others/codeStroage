@@ -1,0 +1,13 @@
+x = np.random.normal(600, 20, 1000)
+
+plt.hist(x, bins=50, color='g')
+plt.axvline(550)
+plt.axvline(620)
+plt.show()
+
+
+# plt.axvline(0)
+# plt.axhline(0)
+# plt.axhline(3)
+# plt.axis("off")
+# plt.axvspan(3,5)
